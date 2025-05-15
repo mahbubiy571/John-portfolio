@@ -23,12 +23,15 @@ a {
 
 img {
     object-fit: cover;
+    display:flex ;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: "Heebo";
+    overflow-x: hidden;
 }
 
 main {
@@ -41,9 +44,9 @@ h1 {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1252px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
